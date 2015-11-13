@@ -1,0 +1,31 @@
+.home{
+/*background-image: url("http://www.fabuloussavers.com/new_wallpaper/Constitution_Day_2011_freecomputerdesktopwallpaper_1600.jpg");*/
+background-image: url("https://www.thecreativecoast.org/wp-content/uploads/2014/07/Justice.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+
+.homeHeader{
+	font-size: 90px;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+
+
+
+/*font-family: 'Kaushan Script', cursive;*/
+
+/*font-family: 'Courgette', cursive;*/
+
+font-family: 'Cinzel', serif;
+
+}
+
+.linkColor{
+	font-family: 'Cinzel', serif;
+
+	color:white;
+
+
+}
