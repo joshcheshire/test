@@ -19,6 +19,10 @@ app.get('/', function(req, res){
   res.sendFile('/public/index.html', {root : './public'})
 });
 
+app.get('/', function(req,res){
+	res.sendfile('./public/splash.html', {root : './public'})
+});
+
 // app.get('/profile/:heroName', function(req, res){
 //   res.sendFile('/html/hero.html', {root : './public'})
 // });
