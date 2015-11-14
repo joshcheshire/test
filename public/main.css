@@ -2,6 +2,7 @@
 background-color: black;
   margin: 0 auto;
   opacity:0.5;
+  position:relative;
 }
 
 .home{
@@ -34,4 +35,21 @@ background-repeat: no-repeat;
 .splash{
 	background-image: url('https://upload.wikimedia.org/wikipedia/commons/9/9d/Scene_at_the_Signing_of_the_Constitution_of_the_United_States.jpg');
 	background-size:cover;
+}
+
+
+.splashHeader{
+	font-size: 95px;
+    text-shadow: 4px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+	font-family: 'Cinzel', serif;
+	color: white;
+	text-align: center;
+	text-decoration: underline;
+}
+
+.sam{
+		font-family: 'Cinzel', serif;
+	    text-shadow: 2px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+		color: white;
+		font-size: 25px;
 }
