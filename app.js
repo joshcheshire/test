@@ -16,7 +16,7 @@ app.use(express.static(__dirname + '/public'));
 // var heroCtrl = require('./controllers/heroCtrl')
 
 app.get('/', function(req, res){
-  res.sendFile('/public/index.html', {root : './public'})
+  res.sendFile('/index.html', {root : './public'})
 });
 
 app.get('/home', function(req, res){
@@ -24,7 +24,7 @@ app.get('/home', function(req, res){
 });
 
 app.get('/purchase', function(req, res){
-	res.sendFile('/public/purchase.html', {root :'./public'})
+	res.sendFile('/purchase.html', {root :'./public'})
 });
 
 // app.get('/profile/:heroName', function(req, res){
