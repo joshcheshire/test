@@ -20,7 +20,7 @@ app.get('/', function(req, res){
 });
 
 app.get('/', function(req,res){
-	res.sendfile('./public/splash.html', {root : './public'})
+	res.sendfile('./public/home.html', {root : './public'})
 });
 
 // app.get('/profile/:heroName', function(req, res){

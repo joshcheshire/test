@@ -1,15 +1,22 @@
 
-    
+ angular.module('app', [])
+
+
+var mainControllerFunc = function($scope){
+    // console.log('Hello world!')
+$scope.greeting = "To Keep Us Free"
 }
 
-angular.module('app', [])
+angular.module('app')
+    .controller('mainController', ['$scope', mainControllerFunc])
 
 
-var mainController = function($scope){
-    console.log('Hello world!')
+    var homeControllerFunc = function($scope){
+    	$scope.greeting = "To Keep Us Free"
+    }
 
-
-    .controller('mainController', ['$scope', mainController])
+    angular.module('app')
+    	.controller('homeController',['$scope', homeControllerFunc])
 
 
 

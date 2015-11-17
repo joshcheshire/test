@@ -6,16 +6,15 @@
          
         <link href='https://fonts.googleapis.com/css?family=Kaushan+Script|Courgette|Cinzel:400,900,700' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css"> 
-        <link rel="stylesheet" href="animate.css">
         <link rel="stylesheet" type="text/css" href="main.css">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.4/angular.js"></script>
     </head>
-    <body class = "splash" ng-controller="splashController">
+    <body class = "home" ng-controller="homeController">
 <!--         <h1 class ="splashHeader">To Keep Us Free</h1>
  -->
         <nav class ="navbar navbar-top ">
-            <a id='navindex'href="/index" >To Keep Us Free</a>
-            <a id='navSplash' href="/splash" type = "link" class = "btn btn-md ">Home</a>
+            <a id='navindex'href="/" >To Keep Us Free</a>
+            <a id='navHome' href="/home" type = "link" class = "btn btn-md ">Home</a>
             <a id='navPurchase' href="/purchase" type = "link" class = "btn btn-md ">Purchase</a>         <a id='navReviews' href ="/reviews" type = "link" class= "btn btn-md">Reviews</a>
             <a id='navSynopsis' href = "/synopsis" type = "link" class= "btn btn-md">Synopsis</a>
             <a id ='navAbout'href="/about" type = "link" class = "btn btn-md"> About the Author</a>
@@ -23,18 +22,18 @@
                
                     <div class = "main-content">
                         <div class = "container">
-                        <h1 class = "splashHeader"> To Keep Us Free</h1>
-                        <p><h4 class = "sam"> My purpose in writing the book is to convince Americans that the charge to America, that answers their frustrations in the campaign underway leading to the 2016 nation and state elections, lies in the first sentence of the US Constitution known as the Preamble. Both national party platforms should pledge "To Keep Us Free" by adopting it as the basis of whatever conservative or liberal policies they propose.</h4></p>
-                        <p>
-                            <a class = " learn-more btn btn-primary btn-lg" type = "button"> Learn More </a></p>
+                        <h1 class = "homeHeader">{{greeting}}</h1>
+                        <p><h3 class = "homeIntro"> "My purpose in writing the book is to convince Americans that the charge to America, that answers their frustrations in the campaign underway leading to the 2016 nation and state elections, lies in the first sentence of the US Constitution known as the Preamble. Both national party platforms should pledge "To Keep Us Free" by adopting it as the basis of whatever conservative or liberal policies they propose."<br>-Dr. Richard D. Cheshire</h3></p>
+                       <!--  <p>
+                            <a class = " learn-more btn btn-primary btn-lg" type = "button"> Learn More </a></p> -->
                         </div>
                     </div>
                 <div class = "container">
                     <div class = "row"> 
                         <div class = "col-md-4">
-                            <h2> Purchase</h2>
-                                <p> Filler text</p>
-                                    <p> <a class = "btn btn-default" href = "#"> Purchase</a></p>
+                            <h2 class = 'purchase'>Purchase</h2>
+                                <!-- <p> </p> -->
+                                    <p> <a class = "btn btn-default" href = "/purchase"> Purchase</a></p>
                         </div>
 
                                 <div class = "col-md-4">
