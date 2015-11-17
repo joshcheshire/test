@@ -1,8 +1,11 @@
 .navbar{
 background-color: black;
-  margin: 0 auto;
-  opacity:0.5;
+  /*margin: 0 auto;*/
+  opacity:0.8;
   position:relative;
+  text-align: left ;
+  font-size: 18px;
+  margin-top: .1vw;
 }
 
 .main{
@@ -34,26 +37,31 @@ background-repeat: repeat;
 
 .home{
 	/*background-image: url('https://upload.wikimedia.org/wikipedia/commons/9/9d/Scene_at_the_Signing_of_the_Constitution_of_the_United_States.jpg');*/
-	background-image: url('http://www.cdc.gov/anthrax/images/reading-glasses-on-top-of-paper.jpg');
+	/*background-image: url('http://www.cdc.gov/anthrax/images/reading-glasses-on-top-of-paper.jpg');*/
+	background-image: url('http://www.myfreetextures.com/wp-content/uploads/2014/10/vintage-old-paper-with-grunge.jpg');
 	background-size:cover;
 }
 
 
 .homeHeader{
 	font-size: 95px;
-    text-shadow: 4px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+    /*text-shadow: 4px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;*/
 	font-family: 'Cinzel', serif;
-	color: white;
+	color: black;
 	text-align: center;
-	text-decoration: underline;
+	/*text-decoration: underline;*/
 }
 
 .homeIntro{
 		font-family: 'Cinzel', serif;
-	    text-shadow: 2px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
-		color: white;
+	    /*text-shadow: 2px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;*/
+		color: black;
 		font-size: 25px;
+		font-weight: bolder;
 		text-align: center;
+}
+.col-md-4{
+	text-align: center;
 }
 
 /*@media only screen and (max-width: 720px){

@@ -19,8 +19,12 @@ app.get('/', function(req, res){
   res.sendFile('/public/index.html', {root : './public'})
 });
 
-app.get('/', function(req,res){
-	res.sendfile('./public/home.html', {root : './public'})
+app.get('/home', function(req, res){
+	res.sendFile('/home.html', {root : './public'})
+});
+
+app.get('/purchase', function(req, res){
+	res.sendFile('/public/purchase.html', {root :'./public'})
 });
 
 // app.get('/profile/:heroName', function(req, res){
