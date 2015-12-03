@@ -64,9 +64,36 @@ background-repeat: repeat;
 	text-align: center;
 }
 
+.aboutTheAuthorTitle{
+	font-size: 85px;
+	font-family: 'Cinzel', serif;
+	color: black;
+	text-align: center;
+}
+
+.authorName{
+	font-family: 'Cinzel', serif;
+	color: black;
+	font-size: 40px;		
+	font-weight: bold;
+	text-align: center;
+}
+
+
+
+.aboutBody{
+	font-family: 'Cinzel', serif;
+	color: black ;
+	font-size: 25px;		
+	font-weight: bolder;
+	text-align: center;
+}
+
+
+
 /*@media only screen and (max-width: 720px){
 	*body{
-		display:inline-block;
+		lack:inline-block;
 	}
 }
 */
