@@ -13,7 +13,7 @@ angular.module('app')
 
     var homeControllerFunc = function($scope){
     	$scope.greeting = "To Keep Us Free"
-    	$scope.dick = "About the Author"
+    	$scope.author = "About the Author"
 
     }
 

@@ -27,6 +27,8 @@ background-repeat: repeat;
     text-shadow: 13px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 	margin-top: 15vw;
 	font-family: 'Cinzel', serif;
+	opacity: 1s;
+		
 }
 
 .linkColor{
@@ -38,7 +40,8 @@ background-repeat: repeat;
 .home{
 	/*background-image: url('https://upload.wikimedia.org/wikipedia/commons/9/9d/Scene_at_the_Signing_of_the_Constitution_of_the_United_States.jpg');*/
 	/*background-image: url('http://www.cdc.gov/anthrax/images/reading-glasses-on-top-of-paper.jpg');*/
-	background-image: url('http://www.myfreetextures.com/wp-content/uploads/2014/10/vintage-old-paper-with-grunge.jpg');
+	/*background-image: url('http://www.myfreetextures.com/wp-content/uploads/2014/10/vintage-old-paper-with-grunge.jpg');*/
+	background-image:  url('http://www.myfreetextures.com/wp-content/uploads/2011/06/another-rough-old-and-worn-parchment-paper.jpg');
 	background-size:cover;
 }
 
@@ -50,6 +53,8 @@ background-repeat: repeat;
 	color: black;
 	text-align: center;
 	/*text-decoration: underline;*/
+	border-bottom: 2px solid black;
+
 }
 
 .homeIntro{
@@ -62,6 +67,29 @@ background-repeat: repeat;
 }
 .col-lg-12{
 	text-align: center;
+	font-size: 90px;
+	color:black;
+	font-weight: bold;
+	font-family: 'Cinzel', serif;
+
+}
+
+.synopsis{
+	font-size: 95px;
+	font-family: 'Cinzel', serif;
+	color: black;
+	text-align: center;
+	/*text-decoration: underline;*/
+	border-bottom: 2px solid black;
+
+}
+
+.synopsisBody{
+	font-family: 'Cinzel', serif;
+	color: black ;
+	font-size: 25px;		
+	font-weight: bolder;
+	text-align: center;
 }
 
 .aboutTheAuthorTitle{
@@ -69,6 +97,8 @@ background-repeat: repeat;
 	font-family: 'Cinzel', serif;
 	color: black;
 	text-align: center;
+	/*text-decoration: underline 10px;*/
+	border-bottom: 2px solid black;
 }
 
 .authorName{
@@ -87,6 +117,11 @@ background-repeat: repeat;
 	font-size: 25px;		
 	font-weight: bolder;
 	text-align: center;
+}
+.pic{
+	size:20px;
+	text-align: center;
+	background-image: url('./test/pics/rdc.jpg');
 }
 
 
