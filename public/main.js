@@ -8,17 +8,21 @@ $scope.greeting = "To Keep Us Free"
 }
 
 angular.module('app')
-    .controller('mainController', ['$scope', mainControllerFunc])
+    .controller('mainController', ['$scope','$sce', mainControllerFunc])
 
 
-    var homeControllerFunc = function($scope){
+    var homeControllerFunc = function($scope, $sce){
+    		$scope.$sce= $sce;
+
     	$scope.greeting = "To Keep Us Free"
     	$scope.author = "About the Author"
+    	$scope.imageSource="./test/pics/rdc.jpg"
+    
 
     }
 
     angular.module('app')
-    	.controller('homeController',['$scope', homeControllerFunc])
+    	.controller('homeController',['$scope','$sce', homeControllerFunc])
 
 
 

@@ -120,9 +120,13 @@ background-repeat: repeat;
 	margin-bottom: 19vw;
 }
 .pic{
-	size:20px;
-	text-align: center;
-	background-image: url('./test/pics/rdc.jpg');
+	/*size: 20vw;*/
+	margin-top:-11vw;
+	margin-left: 13vw;
+	/*text-align: center;*/
+	/*image url('/pics/chesh.jpg');*/
+	background-size: cover; 
+	
 }
 
 
