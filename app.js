@@ -23,9 +23,9 @@ app.get('/home', function(req, res){
 	res.sendFile('/home.html', {root : './public'})
 });
 
-app.get('/purchase', function(req, res){
-	res.sendFile('/purchase.html', {root :'./public'})
-});
+// app.get('/purchase', function(req, res){
+	// res.sendFile('/purchase.html', {root :'./public'})
+// });
 
 // app.get('/profile/:heroName', function(req, res){
 //   res.sendFile('/html/hero.html', {root : './public'})

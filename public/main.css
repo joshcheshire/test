@@ -13,7 +13,7 @@ background-color: black;
 /*background-image: url("https://www.thecreativecoast.org/wp-content/uploads/2014/07/Justice.jpg");*/
 background-image: url("http://www.hdwallpapersnew.net/wp-content/uploads/2015/01/american-flag-beautiful-images-hd-new-wallpapers-of-us-flag.jpg");
 );
-
+/*background-image: url('/pics/eagle2.jpg');*/
 background-size: cover;
 background-repeat: repeat;
 }
@@ -54,6 +54,7 @@ background-repeat: repeat;
 	text-align: center;
 	/*text-decoration: underline;*/
 	border-bottom: 2px solid black;
+	margin-top: 10vw;
 
 }
 
