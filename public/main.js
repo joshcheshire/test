@@ -4,7 +4,7 @@
 
 var mainControllerFunc = function($scope){
     // console.log('Hello world!')
-$scope.greeting = "The Indomitable Freedom Quest"
+$scope.greeting = "The Indomitable Freedom Quest:Honoring America's Sacred Trust"
 }
 
 angular.module('app')
