@@ -12,18 +12,18 @@ background-color: black;
 /*background-image: url("http://www.fabuloussavers.com/new_wallpaper/Constitution_Day_2011_freecomputerdesktopwallpaper_1600.jpg");*/
 /*background-image: url("https://www.thecreativecoast.org/wp-content/uploads/2014/07/Justice.jpg");*/
 /*background-image: url("http://www.hdwallpapersnew.net/wp-content/uploads/2015/01/american-flag-beautiful-images-hd-new-wallpapers-of-us-flag.jpg");*/
-background-image: url('/pics/flag.jpg');
+background-image: url('/pics/eagle.jpg');
 background-size: cover;
 background-repeat: repeat;
 }
 
 .mainHeader{
-	font-size: 160px;
+	font-size: 100px;
 	text-align: center;
 	/*color: #b20000 ;
 	/*color:white;*/
 	color: #fff;
-    text-shadow: 13px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+    /*text-shadow: 13px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;*/
 	margin-top: 15vw;
 	font-family: 'Cinzel', serif;
 	opacity: 1s;
@@ -36,17 +36,17 @@ background-repeat: repeat;
  	text-decoration: none !important;
 }
 
-.home{
+/*.home{*/
 	/*background-image: url('https://upload.wikimedia.org/wikipedia/commons/9/9d/Scene_at_the_Signing_of_the_Constitution_of_the_United_States.jpg');*/
 	/*background-image: url('http://www.cdc.gov/anthrax/images/reading-glasses-on-top-of-paper.jpg');*/
 	/*background-image: url('http://www.myfreetextures.com/wp-content/uploads/2014/10/vintage-old-paper-with-grunge.jpg');*/
 	/*background-image:  url('http://www.myfreetextures.com/wp-content/uploads/2011/06/another-rough-old-and-worn-parchment-paper.jpg');*/
-	background-image: url('pics/planes.jpg');
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
+	/*background-image: url('pics/planes.jpg');*/
+	/*background-position: center;*/
+	/*background-size: cover;*/
+	/*background-repeat: no-repeat;*/
 	
-}
+/*}*/
 
 
 .homeHeader{
