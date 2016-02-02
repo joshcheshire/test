@@ -4,25 +4,22 @@
 
 var mainControllerFunc = function($scope){
     // console.log('Hello world!')
-$scope.greeting = "The Indomitable Freedom Quest:Honoring America's Sacred Trust"
+// $scope.greeting = "The Indomitable Freedom Quest:Honoring America's Sacred Trust"
 }
 
 angular.module('app')
-    .controller('mainController', ['$scope','$sce', mainControllerFunc])
+    .controller('mainController', ['$scope', mainControllerFunc])
 
 
-    var homeControllerFunc = function($scope, $sce){
-    		$scope.$sce= $sce;
-
-    	// $scope.greeting = "The Indomitable Freedom Quest: Honoring America's Sacred Trust"
+    var homeControllerFunc = function($scope){
+    	$scope.greeting = "The Indomitable Freedom Quest: Honoring America's Sacred Trust"
     	$scope.author = "About the Author"
-    	$scope.imageSource="./test/pics/rdc.jpg"
+    	// $scope.imageSource="./test/pics/rdc.jpg"
     
 
     }
 
-    angular.module('app')
-    	.controller('homeController',['$scope','$sce', homeControllerFunc])
+    angular.module('app').controller('homeController',['$scope', homeControllerFunc])
 
 
 

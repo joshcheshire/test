@@ -15,6 +15,10 @@ background-color: black;
 background-image: url('/pics/eagle.jpg');
 background-size: cover;
 background-repeat: repeat;
+margin-right: auto;
+margin-left: auto;
+background-position: center;
+/*position: fixed;*/
 }
 
 .mainHeader{
@@ -50,14 +54,14 @@ background-repeat: repeat;
 
 
 .homeHeader{
-	font-size: 95px;
+	font-size: 50px;
     /*text-shadow: 4px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;*/
 	font-family: 'Cinzel', serif;
 	color: black;
 	text-align: center;
 	/*text-decoration: underline;*/
-	border-bottom: 2px solid black;
-	margin-top: 10vw;
+	/*border-bottom: 2px solid black;*/
+	/*margin-top: 10vw;*/
 
 }
 
@@ -68,6 +72,7 @@ background-repeat: repeat;
 		font-size: 25px;
 		font-weight: bolder;
 		text-align: center;
+		/*border-bottom: 2px solid black;*/
 }
 .col-lg-12{
 	text-align: center;
@@ -75,25 +80,35 @@ background-repeat: repeat;
 	color:black;
 	font-weight: bold;
 	font-family: 'Cinzel', serif;
+	border-radius: 5px;
 
 }
 
 .synopsis{
-	font-size: 95px;
+	font-size: 50px;
 	font-family: 'Cinzel', serif;
 	color: black;
 	text-align: center;
 	/*text-decoration: underline;*/
 	border-bottom: 2px solid black;
+	border-top: 2px solid black;
 
 }
 
 .synopsisBody{
 	font-family: 'Cinzel', serif;
-	color: black ;
-	font-size: 25px;		
+	/*color: #1B0FFA;*/
+	/*color: #FA021B;*/
+	color:white;
+	font-size: 20px;	
+	text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;	
 	font-weight: bolder;
 	text-align: center;
+}
+
+.ata{
+
+	margin-top: 34vw;
 }
 
 .aboutTheAuthorTitle{
@@ -103,6 +118,7 @@ background-repeat: repeat;
 	text-align: center;
 	/*text-decoration: underline 10px;*/
 	border-bottom: 2px solid black;
+	margin-bottom: -10vw;
 }
 
 .authorName{
@@ -111,6 +127,7 @@ background-repeat: repeat;
 	font-size: 40px;		
 	font-weight: bold;
 	text-align: center;
+	margin-top:10vw;
 }
 
 
@@ -121,16 +138,48 @@ background-repeat: repeat;
 	font-size: 25px;		
 	font-weight: bolder;
 	text-align: center;
-	margin-bottom: 19vw;
+	margin-bottom: -19vw;
 }
 .pic{
-	/*size: 20vw;*/
-	margin-top:-11vw;
-	margin-left: 13vw;
-	/*text-align: center;*/
-	/*image url('/pics/chesh.jpg');*/
+	height: 500px;
+	width:300px;
+	margin-top:20vw;
+	/*margin-left: 13vw;*/
+	background-image: url('/pics/chesh.jpg');
 	background-size: cover; 
-	
+	background-position: center;
+	margin-left: auto;
+	margin-right: auto;
+	/*margin-bottom: 15vw;*/
+
+}
+
+.mainOuttakes{
+
+background-image: url('/pics/planes.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+background-position: fixed;
+}
+.outtakesTitle{
+	font-size: 85px;
+	font-family: 'Cinzel', serif;
+	color: black;
+	text-align: center;
+	/*text-decoration: underline 10px;
+	border-bottom: 2px solid black;
+}
+
+
+
+
+.outtakes{
+	font-family: 'Cinzel', serif;
+	color: black ;
+	font-size: 25px;		
+	font-weight: bolder;
+	text-align: center;
+
 }
 
 

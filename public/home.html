@@ -6,21 +6,27 @@
          
         <link href='https://fonts.googleapis.com/css?family=Kaushan+Script|Courgette|Cinzel:400,900,700' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css"> 
+
+     
         <link rel="stylesheet" type="text/css" href="main.css">
+
         <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.4/angular.js"></script>
     </head>
-    <body class = "home" ng-controller="homeController">
+    <body class = "main" ng-controller="mainController">
+        <!-- <h1 class = "mainHeader"> The <strong>Indomitable</strong> <br>Freedom Quest:<br></h1><em><h2 class = "mainHeader">Honoring America's Sacred Trust</em></h2> <br><h3 class = "mainHeader"> Dr. Richard D. Cheshire PhD  </h3> -->
+
+         <div class = "home" ng-controller="homeController">
 
                
                     <div class = "main-content">
                         <div class = "container">
-                        <h1 class = "homeHeader">{{greeting}}</h1>
+                        <h1 class = "homeHeader">The <strong>Indomitable</strong><br>Freedom Quest:</h1><em><h2 class = "homeHeader"> Honoring America's Sacred Trust</em></h2><h3 class = "homeHeader"> Dr. Richard D. Cheshire PhD</h3>
                         <p><h3 class = "homeIntro"> "My purpose in writing the book is to convince Americans that the charge to America, that answers their frustrations in the campaign underway leading to the 2016 nation and state elections, lies in the first sentence of the US Constitution known as the Preamble. Both national party platforms should pledge "To Keep Us Free" by adopting it as the basis of whatever conservative or liberal policies they propose."<br>-Dr. Richard D. Cheshire</h3></p>
 
                         <h1 class = "synopsis">Synopsis</h1>
-                        <p><h3 class = 'synopsisBody'> "NO ONE IS SAFE IN AMERICA"<br><br>
+                        <p class = 'synopsisBody'> "NO ONE IS SAFE IN AMERICA"<br><br>
 
-                            This was the conclusion of a 68-year-old grandmother in Nashville, Tennessee, Linda McFadyen-Ketchum, who spoke to the New York Times after the mass shootings in San Bernadino, California on Dec 2. "I despise having to plan an exit strategy for myself every time I go anywhere, but I do. I want to be ready to run when I hear the first shot. Some might call me 'hyper-sensitized', but I call myself prepared and realistic. No one is safe in America." (" 'I Think About It Daily': Life in a Time of Mass Shootings" by Liam Stack Dec 3, 2015 NYT)<br> <br>
+                            This was the conclusion of a 68-year-old grandmother in Nashville, Tennessee, Linda McFadyen-Ketchum, who spoke to the New York Times after the mass shootings in San Bernadino, California on Dec 2. "I despise having to plan an exit strategy for myself every time I go anywhere, but I do. I want to be ready to run when I hear the first shot. Some might call me 'hyper-sensitized', but I call myself prepared and realistic. No one is safe in America." (" 'I Think About It Daily': Life in a Time of Mass Shootings" by Liam Stack Dec 3, 2015 NYT)<br><br>
 
                             For America, a nation on alert against domestic and foreign terror, that fear is on the minds of many people today. I grew up during WWII in Hempstead, New York on Long Island, near Mitchell Air Force Base which had a prisoner of war camp next door. I remember three fatal pilot training crashes in the village. We had regular air raid training drills when families took shelter in their basements. My grandmother ran a boarding house a few blocks away for 'fly boys' allowed to live off base. We were not afraid. We were determined to fight back.<br><br>
 
@@ -34,30 +40,34 @@
 
                             We begin our game plan here. Please join me in doing that. Thank you very much for joining the fight for freedom.<br><br>
 
-                            Richard D. "Dick" Cheshire, Ph.D. 12-04-15</p></h3> 
+                            Richard D. "Dick" Cheshire, Ph.D. 12-04-15</p>
 
                               <div class = "col-lg-12">
-                            <h2 class = 'purchase'>Purchase</h2>
+                            <!-- <h2 class = 'purchase'>Purchase</h2> -->
                                 
-                                    <p> <a id='purchase button' class = "btn btn-default" href = "/purchase"> Purchase</a></p>
-                        </div>
+                                    <p> <a id='purchase button' class = "btn btn-default btn-lg" href = "/purchase"><strong> Purchase</strong></a></p>
+                                    <p> <a id='purchase button' class = "btn btn-default btn-lg" href = "/outtakes"><strong>Outtakes</strong></a></p>
+                              </div> 
 
-
+                    <div class= 'ata'>
                         <h1 class = "aboutTheAuthorTitle">{{author}}</h1>
                             <h2 class = "authorName">Richard D. Cheshire, Ph.D. of Hamilton, N.Y.</h2>
                             <h3 class = "aboutBody">  Dr. Richard D. Cheshire’s history is about the practice and teaching of transformative leadership, as a college administrator and professor, president of The University of Tampa, co-founder of the Council for Advancement and Support of Education, vice president of the Center for Strategic & International Studies, and author of “Leading by Heart: Through the World of Quantum Civics.” He holds that winning hearts and minds works by the same principles in macro-international affairs as in micro-interpersonal relations, and that these principles are universal, the essence of civic virtue among all peoples. His degrees are from Colgate University, the University of New Hampshire, and New York University. He is married, with three children, eight grandchildren, and two great grandchildren.”</h3>
+                        </div>
 
                         <!-- <div class = 'pic'><img src = 'url(/pics/chesh.jpg)'></div>  -->
-                         <div class = 'pic' style="background-image: url(/pics/chesh.jpg); height: 900px; width: 700px; border: 1px solid black;"> </div> 
+                         <div class = 'pic'></div> 
 
                            <!-- <div class = 'pic'> </div>  -->
                 
                         </div>
 
 
-                    </div>
-               
- 
+                    </div> 
+
+                </div>       
+        
+
         <script src="main.js"></script>
     </body>
 </html>
