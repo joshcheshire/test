@@ -19,13 +19,17 @@ app.get('/', function(req, res){
   res.sendFile('/home.html', {root : './public'})
 });
 
+app.get('/outtakes', function(req, res){
+  res.sendFile('/outtakes.html', {root : './public'})
+});
+
 // app.get('/home', function(req, res){
 	// res.sendFile('/home.html', {root : './public'})
 // });
 
-app.get('/outtakes', function(req, res){
-	res.sendFile('/outtakes.html', {root :'./public'})
-});
+// app.get('/outtakes', function(req, res){
+	// res.sendFile('/outtakes.html', {root :'./public'})
+// });
 
 // app.get('/profile/:heroName', function(req, res){
 //   res.sendFile('/html/hero.html', {root : './public'})

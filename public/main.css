@@ -158,8 +158,9 @@ background-position: center;
 
 background-image: url('/pics/planes.jpg');
 background-size: cover;
-background-repeat: no-repeat;
-background-position: fixed;
+margin-right: auto;
+margin-left: auto;
+background-position: center;
 }
 .outtakesTitle{
 	font-size: 85px;
