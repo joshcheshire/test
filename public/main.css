@@ -1,56 +1,99 @@
-.navbar{
-background-color: black;
-  /*margin: 0 auto;*/
-  opacity:0.8;
-  position:relative;
-  text-align: left ;
-  font-size: 18px;
-  margin-top: .1vw;
+.nav ul {
+  list-style: none;
+  background-color: black;
+  text-align: center;
+  padding: 0;
+  margin-top:-4vw;
+}
+.nav li {
+  font-family: 'Oswald', sans-serif;
+  /*font-family: 'Cinzel', serif;*/
+  font-size: 1.2em;
+  line-height: 40px;
+  height: 40px;
+  border-bottom: 1px solid #888;
+  display: inline-block;  
+}
+ 
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  display: inline-block; 
+  transition:.3s; 
+}
+ 
+/*.nav a:hover {*/
+  /*background-color: #002E62;*/
+/*}*/
+ 
+.nav a.active {
+  /*background-color: #fff;*/
+  /*color: #444;*/
+  cursor: default;
 }
 
+
+@media screen and (min-width: 600px) {
+  .nav li {
+    width: 120px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+  }
+ 
+  /* Option 1 - Display Inline */
+  /*.nav li {*/
+    /*display: inline-block;*/
+    /*margin-right: -4px;*/
+  /*}*/
+
+  
 .main{
-/*background-image: url("http://www.fabuloussavers.com/new_wallpaper/Constitution_Day_2011_freecomputerdesktopwallpaper_1600.jpg");*/
-/*background-image: url("https://www.thecreativecoast.org/wp-content/uploads/2014/07/Justice.jpg");*/
-/*background-image: url("http://www.hdwallpapersnew.net/wp-content/uploads/2015/01/american-flag-beautiful-images-hd-new-wallpapers-of-us-flag.jpg");*/
-background-image: url('/pics/eagle.jpg');
-background-size: cover;
-background-repeat: repeat;
+/*background-repeat: repeat;*/
 margin-right: auto;
 margin-left: auto;
 background-position: center;
 /*position: fixed;*/
+/**background-color: #F1f1f1;*/
 }
 
-.mainHeader{
-	font-size: 100px;
-	text-align: center;
-	/*color: #b20000 ;
-	/*color:white;*/
-	color: #fff;
-    /*text-shadow: 13px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;*/
-	margin-top: 15vw;
-	font-family: 'Cinzel', serif;
-	opacity: 1s;
-		
+@media screen and (min-width: 600px){
+.landing{
+	background-color: black;
+	background-size: cover;
 }
 
-.linkColor{
-	font-family: 'Cinzel', serif;
-	color: inherit !important;
- 	text-decoration: none !important;
+.eagleLands{
+	height: 700px;
+	width:550px;
+	margin-top:3vw;
+	/*margin-left: 13vw;*/
+	background-image: url('/pics/frontcover.jpg');
+	background-size: cover; 
+	background-position: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 3vw;
+
 }
 
-/*.home{*/
-	/*background-image: url('https://upload.wikimedia.org/wikipedia/commons/9/9d/Scene_at_the_Signing_of_the_Constitution_of_the_United_States.jpg');*/
-	/*background-image: url('http://www.cdc.gov/anthrax/images/reading-glasses-on-top-of-paper.jpg');*/
-	/*background-image: url('http://www.myfreetextures.com/wp-content/uploads/2014/10/vintage-old-paper-with-grunge.jpg');*/
-	/*background-image:  url('http://www.myfreetextures.com/wp-content/uploads/2011/06/another-rough-old-and-worn-parchment-paper.jpg');*/
-	/*background-image: url('pics/planes.jpg');*/
-	/*background-position: center;*/
-	/*background-size: cover;*/
-	/*background-repeat: no-repeat;*/
-	
-/*}*/
+.header{
+	font-size: 40px;
+	margin-bottom: 60px;
+	margin-top: 55px;
+}
+
+.home{
+		margin-top: 4vw;
+	background-position: center;
+	background-size: cover;
+	/*background-color: #002E62;*/
+	/*background-color: #bdbdbd;*/
+	background-color: #8da5c6;	
+		/*background-image: url('/pics/chesh.jpg');*/
+
+}
 
 
 .homeHeader{
@@ -74,6 +117,9 @@ background-position: center;
 		text-align: center;
 		/*border-bottom: 2px solid black;*/
 }
+
+
+@media screen and (min-width: 600px){
 .col-lg-12{
 	text-align: center;
 	font-size: 90px;
@@ -81,9 +127,18 @@ background-position: center;
 	font-weight: bold;
 	font-family: 'Cinzel', serif;
 	border-radius: 5px;
-
+	opacity: 1;
+	margin-top: 50vw;
 }
 
+/*#enter-button{*/
+	
+	/*opacity:.9;*/
+/*}*/
+
+#enter-button:hover{
+	opacity:.8;
+}
 .synopsis{
 	font-size: 50px;
 	font-family: 'Cinzel', serif;
@@ -97,19 +152,55 @@ background-position: center;
 
 .synopsisBody{
 	font-family: 'Cinzel', serif;
-	/*color: #1B0FFA;*/
-	/*color: #FA021B;*/
-	color:white;
-	font-size: 20px;	
-	text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;	
+  /*text-shadow: 2px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;*/
+	color: black;
+	font-size: 25px;
 	font-weight: bolder;
 	text-align: center;
 }
 
-.ata{
+@media screen and (min-width: 600px){
+.opEdMain{
+margin-right: auto;
+margin-left: auto;
+background-position: center;
+background-size: cover;
+background-color: #8da5c6;	
 
-	margin-top: 40vw;
 }
+.opEdHeaders{
+	/*font-size: 35px;*/
+	font-family: 'Cinzel', serif;
+	color: black;
+	text-align: center;
+	/*text-decoration: underline;*/
+	border-bottom: 2px solid black;
+	border-top: 2px solid black;
+
+
+}
+.opEdBody{
+	/*margin-top: 3vw;*/
+	font-family: 'Cinzel', serif;
+  /*text-shadow: 2px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;*/
+	color: black;
+	font-size: 20px;
+	font-weight: bolder;
+	text-align: center;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+
+@media screen and (min-width: 600px){
+.ata{
+	margin-top: 4vw;
+	background-position: center;
+	background-size: cover;
+	/*background-color: #002E62;*/
+	background-color: #8da5c6;
+	/*background-color: #F1f1f1;*/
+}	
 
 .aboutTheAuthorTitle{
 	font-size: 85px;
@@ -146,7 +237,7 @@ background-position: center;
 	margin-top:20vw;
 	/*margin-left: 13vw;*/
 	background-image: url('/pics/chesh.jpg');
-	background-size: cover; 
+	background-size: cover; 	
 	background-position: center;
 	margin-left: auto;
 	margin-right: auto;
@@ -154,33 +245,37 @@ background-position: center;
 
 }
 
-.mainOuttakes{
-
-background-image: url('/pics/planes.jpg');
-background-size: cover;
+@media screen and (min-width: 600px){
+.outtakesMain{
 margin-right: auto;
 margin-left: auto;
 background-position: center;
+background-size: cover;
+background-color: #8da5c6;	
+
 }
+
 .outtakesTitle{
-	font-size: 85px;
-	font-family: 'Cinzel', serif;
-	color: black;
-	text-align: center;
-	/*text-decoration: underline 10px;
-	border-bottom: 2px solid black;
+font-family: 'Cinzel', serif;
+font-size: 35px;
+color: black;
+font-weight: bolder;
+text-align: center;
+border-bottom: 2px solid black;
+border-top: 2px solid black;
 }
-
-
 
 
 .outtakes{
 	font-family: 'Cinzel', serif;
-	color: black ;
-	font-size: 25px;		
+  /*text-shadow: 2px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;*/
+	color: black;
+	font-size: 20px;
 	font-weight: bolder;
 	text-align: center;
-
+	margin-left: 15px;
+	margin-right: 15px;
+}
 }
 
 

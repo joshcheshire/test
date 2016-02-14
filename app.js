@@ -16,20 +16,28 @@ app.use(express.static(__dirname + '/public'));
 // var heroCtrl = require('./controllers/heroCtrl')
 
 app.get('/', function(req, res){
-  res.sendFile('/home.html', {root : './public'})
+  res.sendFile('/index.html', {root : './public'})
 });
 
 app.get('/outtakes', function(req, res){
   res.sendFile('/outtakes.html', {root : './public'})
 });
 
-// app.get('/home', function(req, res){
-	// res.sendFile('/home.html', {root : './public'})
-// });
+app.get('/home', function(req, res){
+	res.sendFile('/home.html', {root : './public'})
+});
 
-// app.get('/outtakes', function(req, res){
-	// res.sendFile('/outtakes.html', {root :'./public'})
-// });
+app.get('/author', function(req, res){
+	res.sendFile('/author.html', {root :'./public'})
+});
+
+app.get('/op-eds', function(req,res){
+	res.sendFile('/op-eds.html', {root: './public'})
+})
+
+app.get('/excerpts', function(req,res){
+	res.sendFile('/excerpts.html', {root: './public'})
+})
 
 // app.get('/profile/:heroName', function(req, res){
 //   res.sendFile('/html/hero.html', {root : './public'})
