@@ -62,8 +62,9 @@ background-position: center;
 .landing{
 	background-color: black;
 	background-size: cover;
+	text-align: 0 auto;
 }
-
+@media screen and (min-width: 600px){
 .eagleLands{
 	height: 700px;
 	width:550px;
@@ -128,15 +129,18 @@ background-position: center;
 	font-family: 'Cinzel', serif;
 	border-radius: 5px;
 	opacity: 1;
-	/*margin-top: 50vw;*/
+	/*margin-top: 4vw;*/
 }
-
+@media screen and (min-width: 600px){
 #enter-button{
-	margin-top: 52vw;
-	/*position:fixed;*/
-}
+	margin-top:-9vw;
+	/*position: absolute;*/
+	margin-left: auto;
+	margin-right: auto;
 	
 
+}
+	
 
 #enter-button:hover{
 	opacity:.8;
@@ -146,7 +150,7 @@ background-position: center;
 	font-family: 'Cinzel', serif;
 	color: black;
 	text-align: center;
-	/*text-decoration: underline;*/
+	/*text-decoration: underline;
 	border-bottom: 2px solid black;
 	border-top: 2px solid black;
 
