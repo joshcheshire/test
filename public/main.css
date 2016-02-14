@@ -128,13 +128,15 @@ background-position: center;
 	font-family: 'Cinzel', serif;
 	border-radius: 5px;
 	opacity: 1;
-	margin-top: 50vw;
+	/*margin-top: 50vw;*/
 }
 
-/*#enter-button{*/
+#enter-button{
+	margin-top: 52vw;
+	/*position:fixed;*/
+}
 	
-	/*opacity:.9;*/
-/*}*/
+
 
 #enter-button:hover{
 	opacity:.8;
