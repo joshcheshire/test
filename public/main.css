@@ -153,15 +153,13 @@ background-position: center;
 	font-family: 'Cinzel', serif;
 	color: black;
 	text-align: center;
-	/*text-decoration: underline;
+	text-decoration: underline;
 	border-bottom: 2px solid black;
 	border-top: 2px solid black;
-
 }
 
 .synopsisBody{
 	font-family: 'Cinzel', serif;
-  /*text-shadow: 2px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;*/
 	color: black;
 	font-size: 25px;
 	font-weight: bolder;
@@ -178,7 +176,7 @@ background-color: #8da5c6;
 
 }
 .opEdHeaders{
-	/*font-size: 35px;*/
+	/*font-size: 35px;
 	font-family: 'Cinzel', serif;
 	color: black;
 	text-align: center;
